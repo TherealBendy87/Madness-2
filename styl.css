@@ -1,0 +1,44 @@
+.nadpis {
+  font-family: "Anta", sans-serif;
+}
+
+header {
+  background-color: grey;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Kode Mono", monospace;
+}
+
+nav {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: grey; 
+  color: red;
+  font-family: "Anta", sans-serif;
+  position: relative;
+  top: 710px;
+  display: flex;
+  flex-direction: column;
+  }
