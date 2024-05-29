@@ -1,13 +1,21 @@
+:root {
+   --color-primary: rgb(255, 0, 0);
+   --background-color-outline: rgb(128, 128, 128);
+   --color-secondary: rgb(139, 0, 0);
+   --background-color: 
+}
+
 .nadpis {
     font-family: "Anta", sans-serif;
  }
  
  header {
-    background-color: grey;
-    color: red;
+    background-color: var(--background-color-outline);
+    color: var(--color-primary);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center
  }
  
  body {
@@ -31,8 +39,8 @@
  }
 
  footer {
-    background-color: grey; 
-    color: red;
+    background-color: var(--background-color-outline); 
+    color: var(--color-primary);
     font-family: "Anta", sans-serif;
     position: fixed;
     bottom: 0px;
@@ -55,22 +63,22 @@
 
 
 a:link {
-   color: red;
+   color: var(--color-primary);
  }
  
 
  a:visited {
-   color: red;
+   color: var(--color-primary);
  }
  
 
  a:hover {
-   color: darkred;
+   color: var(--color-secondary)
  }
  
 
  a:active {
-   color: darkred;
+   color: var(--color-secondary)
  } 
 
  form {
@@ -82,9 +90,9 @@ a:link {
 
  form > input, form > button {
    padding: 6px;
-   border: 1px solid red;
+   border: 1px solid var(--color-primary);
    font-size: 24px;
-   background-color: grey;
+   background-color: var(--background-color-outline);
 }
 button {
    max-width: 200px;
